@@ -1217,7 +1217,7 @@ end
 
 local ui = library:Init('RoHub|Strucid')
 
-local tab1 = ui:Tab('Aim','4941755400')
+local tab1 = ui:Tab('🎯Aim','4941755400')
 local tab2 = ui:Tab('Visuals', '')
 local tab3 = ui:Tab('Player', '')
 local tab4 = ui:Tab('Credits', '')
