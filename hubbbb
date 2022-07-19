@@ -1273,7 +1273,7 @@ Settings:Keybind('Toggle UI', 'toggleUi', Enum.KeyCode.RightShift, library.toggl
 
 local Objects = tab4:Section('Credits')
 
-Objects:Button('Rohub Discord: https://discord.gg/VwrjBGM8dT', function() -- string <text>, function [callback]
+Objects:Button('Rohub Discord: discord.gg/kszkGfN24d', function() -- string <text>, function [callback]
    
 end)
 
