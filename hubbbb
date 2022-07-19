@@ -1254,7 +1254,7 @@ Objects:Button('Fly', function() -- string <text>, function [callback]
    loadstring(game:HttpGet(('https://pastebin.com/raw/WxmvCLLH'),true))()
 end)
 
-Objects:Button('Turn on everytime you spawn on, auto off because anti cheat', function() -- string <text>, function [callback]
+Objects:Button('enable fly everytime you spawn in (anti cheat fucks it', function() -- string <text>, function [callback]
    
 end)
 
