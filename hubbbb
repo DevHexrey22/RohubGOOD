@@ -1230,8 +1230,25 @@ Objects:Button('Silent Aim', function() -- string <text>, function [callback]
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ICEEDev/Epic-Roblox-Scripts/master/StrucidSilentAim.lua", true))()
 end)
 
+Objects:Button('Pro firerate', function() -- string <text>, function [callback]
+    local req=getrenv().require;
 
-Objects:Button('Aimbot', function() -- string <text>, function [callback]
+getrenv().require=function(...)
+local dat = req(...)
+
+if(typeof(dat)=='table')then
+dat.Recoil=0
+dat.Debounce=.05
+dat.Inaccuracy=0
+dat.Lvl=1
+end
+
+return dat;
+end
+end)
+
+
+Objects:Button('Aimbot (SOON)', function() -- string <text>, function [callback]
     
 end)
 
