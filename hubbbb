@@ -3999,23 +3999,21 @@ Objects:Button('Rohub Discord: discord.gg/kszkGfN24d', function() -- string <tex
    
 end)
 
-Objects:Button('Script Credits: Dev_Hexry#1219', function() -- string <text>, function [callback]
+Objects:Button('Owner: Dev_Hexry#1219', function() -- string <text>, function [callback]
    
 end)
 
-Objects:Button('Ui Credits: xandu#1208 ', function() -- string <text>, function [callback]
+Objects:Button('Script: Chronics#0560', function() -- string <text>, function [callback]
+   
+end)
+
+Objects:Button('Ui Credits: xandu#5980 ', function() -- string <text>, function [callback]
    
 end)
 
 Objects:Button('emotional support: Lasuzx#9106', function() -- string <text>, function [callback]
    
 end)
-
-Objects:Button('xandu#1208s Discord: https://discord.gg/Ab69sCk6Hk ', function() -- string <text>, function [callback]
-   
-end)
-
-
 
 
 return library
