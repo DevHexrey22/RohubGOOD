@@ -5246,7 +5246,8 @@ local tab6 = ui:Tab('Settings', '')
 
 
 local Objects = tab1:Section('Auto farm')
-Objects:Button('Auto farm dropped money', function() -- string <text>, function [callback]
+
+Objects:Toggle('Auto Farm', 'FARM', false, function(state)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 local tool = game.Players.LocalPlayer.Backpack.Combat
 
