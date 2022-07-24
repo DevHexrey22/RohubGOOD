@@ -1,4 +1,5 @@
 if game.PlaceId == 2377868063 then
+elseif game.PlaceId == 3606833500 then
 local function Notify(Arg_Title, Arg_Text, Arg_Duration)
 	game.StarterGui:SetCore("Thanks for using Rohub!", {
 		Title = Arg_Title,
