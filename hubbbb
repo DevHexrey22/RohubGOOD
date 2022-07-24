@@ -1267,6 +1267,10 @@ Objects:Button('Tracers', function() -- string <text>, function [callback]
 end)
 local Objects = tab3:Section('Player')
 
+Objects:Slider('Fly Speed', 'ws', 16, 16, 500, function(value) -- string <text>, string <flag>, int <default>, int <min>, ini <max>, function [callback]
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
+end)
+
 Objects:Button('Fly', function() -- string <text>, function [callback]
    loadstring(game:HttpGet(('https://pastebin.com/raw/WxmvCLLH'),true))()
 end)
